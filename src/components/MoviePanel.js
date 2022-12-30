@@ -1,4 +1,4 @@
-const MoviePanel = ({el}) => (
+const MoviePanel = ({ el }) => (
 
   <div>
     <img src={el} alt="movie logo" className="h-72 w-56" />
