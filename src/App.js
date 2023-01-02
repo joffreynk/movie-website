@@ -8,7 +8,7 @@ const App = () => (
       <Header />
     </div>
 
-    <div>
+    <div className="mt-56">
       <Carousel />
     </div>
   </div>
