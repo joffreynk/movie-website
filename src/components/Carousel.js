@@ -21,9 +21,6 @@ const Carousel = () => {
     } else setRange(((prevV) => prevV + 3));
   };
 
-  console.log(range);
-
-
   return (
     <div className="flex mt-72">
       <button onClick={prev}><FcPrevious/></button>
