@@ -20,10 +20,10 @@ const Carousel = () => {
   };
 
   return (
-    <div className="flex mt-72">
-      <button type="button" onClick={prev}> <FcPrevious/> </button>
+    <div className="flex mt-72 justify-center items-center gap-3">
+      <button type="button" onClick={prev}> <FcPrevious className="text-5xl "  /> </button>
       {newData.map((el, i) => <MoviePanel key={`${i * 3}`} el={el} />)}
-      <button type="button" onClick={next}><FcNext/></button>
+      <button type="button" onClick={next}><FcNext className="text-5xl" /></button>
     </div>
   )
 };
