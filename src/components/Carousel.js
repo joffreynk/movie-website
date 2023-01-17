@@ -20,7 +20,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="flex mt-72 w-full justify-center items-center">
+    <div className="flex mt-72">
       <button type="button" onClick={prev}> <FcPrevious/> </button>
       {newData.map((el, i) => <MoviePanel key={`${i * 3}`} el={el} />)}
       <button type="button" onClick={next}><FcNext/></button>
