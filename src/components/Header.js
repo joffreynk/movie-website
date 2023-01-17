@@ -2,7 +2,6 @@ import { BiSearch, BiUser } from 'react-icons/bi';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = () => (
-
   <div className="flex justify-between items-center fixed text-[#cac9c9] top-5 left-10 right-10 text-2xl font-semibold">
     <h1>
       Movie

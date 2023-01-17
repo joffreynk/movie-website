@@ -4,8 +4,6 @@ import { useState } from 'react';
 import data from '../data/carousel';
 import MoviePanel from './MoviePanel';
 
-// 1   2  3  4  5  6  7  8  9
-
 const Carousel = () => {
   const [range, setRange] = useState(0);
   const newData = data.slice(range, range + 3);
