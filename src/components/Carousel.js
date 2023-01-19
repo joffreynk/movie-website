@@ -1,5 +1,5 @@
 import {FcNext, FcPrevious } from 'react-icons/fc'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import data from '../data/carousel';
 import MoviePanel from './MoviePanel';
@@ -12,6 +12,12 @@ const Carousel = () => {
       setRange(data.length - 4);
     } else setRange(((prevV) => prevV - 3));
   };
+  useEffect(()=>{
+    const interval = setInterval(() => {
+      next()
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [range])
 
   const next = () => {
     if (range > (data.length - 4)) {
@@ -20,7 +26,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="flex mt-28 justify-center items-center gap-3">
+    <div className="flex justify-center items-center gap-3">
       <button type="button" onClick={prev}> <FcPrevious className="text-5xl "  /> </button>
       {newData.map((el, i) => <MoviePanel key={`${i * 3}`} el={el} />)}
       <button type="button" onClick={next}><FcNext className="text-5xl" /></button>
