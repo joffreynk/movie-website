@@ -12,7 +12,7 @@ import panther5 from '../images/carousel/panther5.jpeg';
 import panther6 from '../images/carousel/panther6.jpeg';
 
 const data = [
-  avatar1, avatar2, avatar3, avatar4, juma1, juma2, juma3, panther1, panther2, panther4, panther5, panther6,
+  avatar1, panther5, avatar4, juma1, panther4, avatar2, juma3, panther1, juma2, panther2,  avatar3, panther6,
 ];
 
 export default data;
