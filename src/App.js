@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from './components/Carousel';
 import Header from './components/Header';
+import Movies from './components/Movies';
 
 const App = () => (
   <div className="relative font-opensans " style={{ height: '200rem' }}>
@@ -10,6 +11,9 @@ const App = () => (
 
     <div className="mt-36">
       <Carousel />
+    </div>
+    <div className="mt-10">
+      <Movies />
     </div>
   </div>
 );
