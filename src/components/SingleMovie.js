@@ -8,12 +8,12 @@ const SingleMovie = ({movie}) => {
         <div>
           <img src={movie.imageurl[0]} alt={movie.title} className="w-full" />
         </div>
-        {movie.synopsis.length>1? <p className="absolute hidden group-hover:block text-lg bottom-0 bg-gray-50 bg-opacity-90 text-[#1f1f1f] p-3 text-justify">{movie.synopsis}</p>:''}
+        {movie.synopsis.length>1? <p className="absolute hidden group-hover:block text-lg bottom-0 bg-[#cac9c9] bg-opacity-90 text-[#1f1f1f] p-3 text-justify">{movie.synopsis}</p>:''}
       </div>
-        <h4>{movie.title} {movie.released ? `(${movie.released})`:''}</h4>
+        <h4 className='text-[#cac9c9]'>{movie.title} {movie.released ? `(${movie.released})`:''}</h4>
         <h4></h4>
         <ul className='flex justify-between gap-2'>
-          {movie.genre.map(genre => <li>{genre}</li>)}
+          {movie.genre.map(genre => <li className='text-[#cac9c9]'>{genre}</li>)}
         </ul>
         
     </li>

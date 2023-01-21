@@ -24,7 +24,7 @@ const Movies = () => {
       <h3 className="uppercase text-transparent font-extrabold tracking-[20px] text-5xl bg-clip-text bg-gradient-to-r from-[#f5065e] to-[#0004e0]">movies</h3>
       <div className="flex gap-8">
         <div className="flex flex-col gap-5">
-          <h4  className="uppercase font-bold ">genre</h4>
+          <h4  className="uppercase font-bold text-[#cac9c9]">genre</h4>
           <div className="flex flex-col items-start justify-start group">
           { mygenres.map((genre) => <button className="group-focus:bg-red-900" key={genre} onClick={() => setDisplayedMovies(moviesData.filter(movie => movie.genre.includes(genre)))}>{genre}</button>) }
           </div>
