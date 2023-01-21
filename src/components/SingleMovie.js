@@ -7,12 +7,11 @@ const SingleMovie = ({movie}) => {
         <div>
           <img src={movie.imageurl[0]} alt={movie.title} className="w-full" />
         </div>
+        <h4>{movie.title} {movie.released ? `(${movie.released})`:''}</h4>
+        <h4></h4>
         <ul className='flex justify-between gap-2'>
           {movie.genre.map(genre => <li>{genre}</li>)}
         </ul>
-        <div>
-
-        </div>
     </li>
   )
 }
