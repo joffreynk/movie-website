@@ -16,12 +16,10 @@ const App = () => (
     <div className='flex justify-center items-center my-10'>
       <button >Subscription</button>
     </div>
-    <div className="mt-10">
+    <div className="mt-10 mx-[5%]">
       <div >
         <Premium />
       </div>
-
-
       <div >
         <Movies />
       </div>
