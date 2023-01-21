@@ -1,4 +1,5 @@
-import { BiSearch, BiUser } from 'react-icons/bi';
+import { BiUser } from 'react-icons/bi';
+import { SocialIcon } from 'react-social-icons'
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = () => (
@@ -8,9 +9,40 @@ const Header = () => (
       <span className="text-[#f139df] ">World</span>
     </h1>
 
-    <div className="flex items-center ">
-      <input type="text" className=" bg-[#4b4b4d] outline-none border-0" />
-      <BiSearch className="-mx-7 cursor-pointer" />
+    <div className='flex justify-center items-center'>
+
+      <SocialIcon
+        target="_blank"
+        url="https://www.linkedin.com/in/joffreynk/"
+        fgColor='gray'
+        bgColor='transparent'
+      />
+      <SocialIcon
+        target="_blank"
+        url="https://twitter.com/joffreynk"
+        fgColor='gray'
+        bgColor='transparent'
+        // className={`hover:${styles.hovering}`}
+      />
+      <SocialIcon
+        target="_blank"
+        url="https://github.com/JoffreyNK"
+        fgColor='gray'
+        bgColor='transparent'
+      />
+      <SocialIcon
+        target="_blank"
+        url="https://www.facebook.com/joffreynk7"
+        fgColor='gray'
+        bgColor='transparent'
+      />
+      <SocialIcon
+        target="_blank"
+        url="https://angel.co/u/joffreynk/"
+        fgColor='gray'
+        bgColor='transparent'
+      />
+
     </div>
 
     <div className="flex items-center ">
