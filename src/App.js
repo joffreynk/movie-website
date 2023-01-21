@@ -6,7 +6,7 @@ import Premium from './components/Premium';
 
 const App = () => (
   <div className="relative font-opensans  bg-[#1f1f1f] text-white pb-32 capitalize">
-    <div className="fixed top-0 right-0 left-0 h-28  bg-[#1f1f1f]">
+    <div className="">
       <Header />
     </div>
 
