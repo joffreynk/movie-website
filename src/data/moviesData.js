@@ -1,4 +1,4 @@
-const movies = [
+const moviesData = [
     {
         "imageurl": [
             "https://m.media-amazon.com/images/M/MV5BMjQyYWQ4MTMtODVmYi00ODYzLWE1NTktM2U2OTgwMDFhMjA5XkEyXkFqcGdeQXVyOTE1MTM4MzI@._V1_UY268_CR87,0,182,268_AL_.jpg"
