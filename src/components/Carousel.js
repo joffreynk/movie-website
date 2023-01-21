@@ -6,11 +6,11 @@ import MoviePanel from './MoviePanel';
 
 const Carousel = () => {
   const [range, setRange] = useState(0);
-  const newData = data.slice(range, range + 3);
+  const newData = data.slice(range, range + 4);
   const prev = () => {
-    if (range + 3 === data.length - 1 || range === 0) {
-      setRange(data.length - 4);
-    } else setRange(((prevV) => prevV - 3));
+    if (range + 4 === data.length - 1 || range === 0) {
+      setRange(data.length - 5);
+    } else setRange(((prevV) => prevV - 4));
   };
   useEffect(()=>{
     const interval = setInterval(() => {
@@ -20,9 +20,9 @@ const Carousel = () => {
   }, [range])
 
   const next = () => {
-    if (range > (data.length - 4)) {
+    if (range > (data.length - 5)) {
       setRange(0);
-    } else setRange(((prevV) => prevV + 3));
+    } else setRange(((prevV) => prevV + 4));
   };
 
   return (
