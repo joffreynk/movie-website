@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Movies from './components/Movies';
 import Premium from './components/Premium';
@@ -18,6 +19,9 @@ const App = () => (
     </div>
       <div className="mt-10 mx-[5%]">
         <Movies />
+      </div>
+      <div>
+        <Footer />
       </div>
   </div>
 );
