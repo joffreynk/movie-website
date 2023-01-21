@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from './components/Carousel';
 import Header from './components/Header';
 import Movies from './components/Movies';
+import Premium from './components/Premium';
 
 const App = () => (
   <div className="relative font-opensans " style={{ height: '200rem' }}>
@@ -12,8 +13,18 @@ const App = () => (
     <div className="mt-36">
       <Carousel />
     </div>
+    <div className='flex justify-center items-center my-10'>
+      <button >Subscription</button>
+    </div>
     <div className="mt-10">
-      <Movies />
+      <div >
+        <Premium />
+      </div>
+
+
+      <div >
+        <Movies />
+      </div>
     </div>
   </div>
 );
