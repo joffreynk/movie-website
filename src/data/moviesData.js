@@ -17,32 +17,6 @@ const moviesData = [
     },
     {
         "imageurl": [
-            "https://m.media-amazon.com/images/M/MV5BNzY5Yjg4MDYtNThmOC00ODU0LWIzYjQtOWJhYWFjN2MxZDk0XkEyXkFqcGdeQXVyNDMyNTgyNDQ@._V1_UY268_CR146,0,182,268_AL_.jpg"
-        ],
-        "genre": [
-            "Drama"
-        ],
-        "imdbid": "tt9899344",
-        "title": "GodHead: In a fiction, in a dream of passion",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "Dreamers in a lonely circus."
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Drama"
-        ],
-        "imdbid": "tt9894000",
-        "title": "Twice As Strong: Made of Fire",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "Adapted for screen from the novel, The WheelHouse, Pt. II: Death of a White Knight, Twice As Strong: Made of Fire is a story about a man who loses his faith and no longer finds any reason ..."
-    },
-    {
-        "imageurl": [
             "https://m.media-amazon.com/images/M/MV5BYmE1MjEyM2UtMWU5NS00NjRjLWFlY2ItMTU5Mjk4ODk0MzdjXkEyXkFqcGdeQXVyOTE3NzY4OTQ@._V1_UY268_CR33,0,182,268_AL_.jpg"
         ],
         "genre": [
@@ -73,48 +47,6 @@ const moviesData = [
     },
     {
         "imageurl": [
-            "https://m.media-amazon.com/images/M/MV5BZTYwNWQ3OGMtNjRjNy00NjFjLTlkYTEtNzRiZGQzMTllOWYxXkEyXkFqcGdeQXVyMTEyMTExMzM2._V1_UY268_CR3,0,182,268_AL_.jpg"
-        ],
-        "genre": [
-            "Drama"
-        ],
-        "imdbid": "tt9872558",
-        "title": "Takkar",
-        "imdbrating": 9.5,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "Sathuyki is a man of words who helps people solve their issues by hook or crook. Once, while doing so, he gets caught by his own father, who is a police inspector"
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Drama",
-            "Romance",
-            "Thriller"
-        ],
-        "imdbid": "tt9863642",
-        "title": "Deceitful Tendencies",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": ""
-    },
-    {
-        "imageurl": [
-            "https://m.media-amazon.com/images/M/MV5BZDFiMGU4OGItNmFmNi00MGZlLTg2YmItNzc3OThiZmI0MTRlXkEyXkFqcGdeQXVyOTk4MzQzNTY@._V1_UY268_CR46,0,182,268_AL_.jpg"
-        ],
-        "genre": [
-            "Drama"
-        ],
-        "imdbid": "tt9858058",
-        "title": "8 Days with Hopper",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "1970, American sweetheart Michelle Phillips is untangling herself from a recent marriage to the leader of the Mamas and the Papas, John Phillips. Pressure to record a final album for the ..."
-    },
-    {
-        "imageurl": [
             "https://m.media-amazon.com/images/M/MV5BMTBmNzU0NWMtN2EwMi00OTU0LTg5NWMtNjQzZTM4M2NmOWM5XkEyXkFqcGdeQXVyNDAzNjgzNw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
         ],
         "genre": [
@@ -126,18 +58,6 @@ const moviesData = [
         "released": 2022,
         "type": "movie",
         "synopsis": "A young low-level drug dealer is reunited with his estranged mom and uncle to protect him when a ruthless drug kingpin puts a hit on him."
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Action"
-        ],
-        "imdbid": "tt9811300",
-        "title": "The Key",
-        "imdbrating": 5.7,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": ""
     },
     {
         "imageurl": [
@@ -153,18 +73,6 @@ const moviesData = [
         "released": 2022,
         "type": "movie",
         "synopsis": "After a life altering trauma, Zouzou, a therapist, seeks a fresh start in a new home. As she attempts to focus on her own fledgling art career, she soon realizes you can't outrun memories. ..."
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Documentary"
-        ],
-        "imdbid": "tt9779978",
-        "title": "Science Friction",
-        "imdbrating": 8,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": ""
     },
     {
         "imageurl": [
@@ -197,30 +105,6 @@ const moviesData = [
         "synopsis": "April 1940. The eyes of the world are on Narvik, a small town in northern Norway, source of the iron ore needed for Hiter's war machinery. Through two months of fierce winter warfare, Hitler is dealt his first defeat."
     },
     {
-        "imageurl": [],
-        "genre": [
-            "Action"
-        ],
-        "imdbid": "tt9699866",
-        "title": "Mahanayak",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": ""
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Comedy",
-            "Drama"
-        ],
-        "imdbid": "tt9658500",
-        "title": "Tastings",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie"
-    },
-    {
         "imageurl": [
             "https://m.media-amazon.com/images/M/MV5BNjIwYmU5Y2ItNzJkMy00M2JiLWE5MTgtZDIwMjAyODkyM2Y0XkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_UY268_CR9,0,182,268_AL_.jpg"
         ],
@@ -240,43 +124,13 @@ const moviesData = [
         "imageurl": [
             "https://m.media-amazon.com/images/M/MV5BY2Q5NDM1M2MtYWZmMC00YjdhLTllY2MtMmU4NzE3NjRkZDBlXkEyXkFqcGdeQXVyMjA5MzI5OTk@._V1_UY268_CR4,0,182,268_AL_.jpg"
         ],
-        "genre": [
-            "\\N"
-        ],
+        "genre": [],
         "imdbid": "tt9629114",
         "title": "Music Hole",
         "imdbrating": 7.4,
         "released": 2022,
         "type": "movie",
         "synopsis": ""
-    },
-    {
-        "imageurl": [
-            "https://m.media-amazon.com/images/M/MV5BMzFkNWIxNjgtOWY5OC00NjJhLTk0NWEtMmMwMzU2OTdjMzdmXkEyXkFqcGdeQXVyNzQzNzI3MTc@._V1_UY268_CR3,0,182,268_AL_.jpg"
-        ],
-        "genre": [
-            "Drama",
-            "Family",
-            "Sport"
-        ],
-        "imdbid": "tt9603090",
-        "title": "Home Plate",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "A family consisting of three brothers are on the same baseball team coached by their father, with the determination to win a little league championship they try to keep their family together while taking on opposing forces."
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "\\N"
-        ],
-        "imdbid": "tt9585100",
-        "title": "Barely Ivey",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "The powerful true story of an unlikely friendship between a young white actor and an elderly black homeless man in Los Angeles."
     },
     {
         "imageurl": [
@@ -294,20 +148,6 @@ const moviesData = [
     },
     {
         "imageurl": [
-            "https://m.media-amazon.com/images/M/MV5BMWRiNDJiZDMtMzhiNi00YmQzLTgyNWYtMWVkZjgzMGZjMGY2XkEyXkFqcGdeQXVyODU0MjI0NjY@._V1_UY268_CR24,0,182,268_AL_.jpg"
-        ],
-        "genre": [
-            "Comedy"
-        ],
-        "imdbid": "tt9579786",
-        "title": "Third Act",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "The THIRD ACT is a New Mexico film, produced and directed in the never-done-before, never-heard-of style of live theater. Behind the scenes, we'll host a special guest tasked with mentoring..."
-    },
-    {
-        "imageurl": [
             "https://m.media-amazon.com/images/M/MV5BZWVjMmFkZDAtMTI3OC00OWMwLWE3NDYtMjVlMTIyYmI4OWI2XkEyXkFqcGdeQXVyNTgwNDM3Ng@@._V1_UY268_CR4,0,182,268_AL_.jpg"
         ],
         "genre": [
@@ -322,22 +162,6 @@ const moviesData = [
     },
     {
         "imageurl": [
-            "https://m.media-amazon.com/images/M/MV5BOTUxOTY2NGMtMzBmYS00NzEwLTliNmEtMzUwMDA0MTQ4YTA0XkEyXkFqcGdeQXVyODUyMDU2MzA@._V1_UX182_CR0,0,182,268_AL_.jpg"
-        ],
-        "genre": [
-            "Crime",
-            "Horror",
-            "Sci-Fi"
-        ],
-        "imdbid": "tt9568318",
-        "title": "Chest",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "While filming a documentary series about Appalachian folklore and mythology, a crew of amateur filmmakers uncover the legend of a mysterious box hidden away deep in a wilderness area known ..."
-    },
-    {
-        "imageurl": [
             "https://m.media-amazon.com/images/M/MV5BNGUwODkyNWItNDE4YS00MjAwLTgyNTYtNTFmYTNiOTQ4NGZlXkEyXkFqcGdeQXVyNjA1NjU0OTk@._V1_UX182_CR0,0,182,268_AL_.jpg"
         ],
         "genre": [
@@ -349,18 +173,6 @@ const moviesData = [
         "released": 2022,
         "type": "movie",
         "synopsis": "A woman disfigured during a plastic surgery operation takes out her anger on all those who have wronged her, by slaughtering them."
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Documentary"
-        ],
-        "imdbid": "tt9535492",
-        "title": "Conversion",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "A psychologist practicing conversion therapy has a chance encounter with a young gay activist, resulting in his own epiphany concerning the very practice he was conducting."
     },
     {
         "imageurl": [
@@ -423,22 +235,6 @@ const moviesData = [
     },
     {
         "imageurl": [
-            "https://m.media-amazon.com/images/M/MV5BYWMyOGZiZDQtZjk0Yy00NWI0LWIxZGMtMWYyZjk4NzVhOWJmXkEyXkFqcGdeQXVyMjQwMDkwNTQ@._V1_UY268_CR230,0,182,268_AL_.jpg"
-        ],
-        "genre": [
-            "Action",
-            "Crime",
-            "Thriller"
-        ],
-        "imdbid": "tt9466814",
-        "title": "Cobra",
-        "imdbrating": 8.9,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "A Psychological Thriller"
-    },
-    {
-        "imageurl": [
             "https://m.media-amazon.com/images/M/MV5BODg4ZGI5ZmItMGZmZi00ZDA1LTkwNjYtNjAxYzQ1ZDdlNTM3XkEyXkFqcGdeQXVyNDY2NTAzMzI@._V1_UY268_CR0,0,182,268_AL_.jpg"
         ],
         "genre": [
@@ -461,57 +257,6 @@ const moviesData = [
         ],
         "imdbid": "tt9451352",
         "title": "Dijital Esaret",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": ""
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Crime",
-            "Thriller"
-        ],
-        "imdbid": "tt9422624",
-        "title": "Silvio Santos: O Sequestro",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": ""
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Drama"
-        ],
-        "imdbid": "tt9383986",
-        "title": "The Man Who Drew God",
-        "imdbrating": 7,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "The rise and fall of a blind artist who has the extraordinary gift of making true-to-life portraits just by listening to human voices, and of becoming a TV-junk star. A fable on the need to..."
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Drama",
-            "History",
-            "War"
-        ],
-        "imdbid": "tt9378692",
-        "title": "Freedom's Path",
-        "imdbrating": 9.5,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "Set during the American Civil War, the story of a unique friendship forged between a Union soldier and runaway slave, centering in and around the Underground Railroad."
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Documentary"
-        ],
-        "imdbid": "tt9372818",
-        "title": "Pappani",
         "imdbrating": null,
         "released": 2022,
         "type": "movie",
@@ -560,18 +305,6 @@ const moviesData = [
         "released": 2022,
         "type": "movie",
         "synopsis": "After discovering he might die soon, a timid young man along with his estranged and outrageous childhood friends, embark on a quest for closure on why the love of his life left."
-    },
-    {
-        "imageurl": [],
-        "genre": [
-            "Fantasy"
-        ],
-        "imdbid": "tt9322606",
-        "title": "The Daimons",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "before wwi began, an Italian-israeli army colonel Damiano Nobile gets kidnapped by three strange beings to join the big project agenda made by the commander primis."
     },
     {
         "imageurl": [
@@ -663,36 +396,6 @@ const moviesData = [
         "released": 2022,
         "type": "movie",
         "synopsis": ""
-    },
-    {
-        "imageurl": [
-            "https://m.media-amazon.com/images/G/01/imdb/images/nopicture/180x268/film-173410679._CB468515592_.png"
-        ],
-        "genre": [
-            "Drama",
-            "Fantasy",
-            "Romance"
-        ],
-        "imdbid": "tt9198364",
-        "title": "Three Thousand Years of Longing",
-        "imdbrating": 5.7,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": ""
-    },
-    {
-        "imageurl": [
-            "https://m.media-amazon.com/images/M/MV5BMmMyNDBlZWEtOTQ1MS00ZWQwLWE3MDAtOGY0ODY5Y2MwNjVkXkEyXkFqcGdeQXVyMjMxNjQ4MDI@._V1_UY268_CR1,0,182,268_AL_.jpg"
-        ],
-        "genre": [
-            "Horror"
-        ],
-        "imdbid": "tt9184760",
-        "title": "In Search of Fear",
-        "imdbrating": null,
-        "released": 2022,
-        "type": "movie",
-        "synopsis": "Whilst searching for fear, fear unexpectedly finds them."
     },
     {
         "imageurl": [
