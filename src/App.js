@@ -14,7 +14,7 @@ const App = () => (
       <Carousel />
     </div>
     <div className="flex justify-center items-center my-10 ">
-      <button className="capitalize bg-gradient-to-r from-[#ef4d88] to-[#4e51ff] px-16 py-4 rounded-lg text-3xl">Subscription</button>
+      <button type='button' className="capitalize bg-gradient-to-r from-[#ef4d88] to-[#4e51ff] px-16 py-4 rounded-lg text-3xl">Subscription</button>
     </div>
     <div className="mt-10 mx-[5%]">
       <Movies />

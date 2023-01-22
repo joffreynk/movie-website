@@ -12,18 +12,20 @@ const Carousel = () => {
       setRange(data.length - 5);
     } else setRange(((prevV) => prevV - 4));
   };
-  useEffect(() => {
-    const interval = setInterval(() => {
-      next();
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [range]);
+
 
   const next = () => {
     if (range > (data.length - 5)) {
       setRange(0);
     } else setRange(((prevV) => prevV + 4));
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      next();
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [range]);
 
   return (
     <div className="flex justify-center items-center gap-3">
